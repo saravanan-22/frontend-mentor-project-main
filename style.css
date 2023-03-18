@@ -1,0 +1,1601 @@
+@media all and (max-width: 540px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 20, 31);
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    min-width: 450px;
+}
+
+header .navbar {
+    background: rgb(22, 29, 47);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items:center;
+    align-content: stretch;
+    padding: 20px 5px;
+}   
+
+header ul {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 20px;
+    padding-left: 0px;
+}
+
+header li {
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 20px;
+    
+}
+
+header nav a{
+    color: rgb(90, 105, 144);
+}
+
+header nav a:hover {
+    color: white;
+}
+
+header nav .fa-windows {
+    color: white;
+}
+
+header .fa-clapperboard {
+    color: rgb(253, 71, 70);
+    font-size: 30px;
+}
+
+
+header nav img {
+    align-items: center;
+}
+
+header #login-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* ----------------------searchbar main------------------ */
+
+main #searchbar {
+    min-width: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    position: sticky;
+    top: 80px;
+    background-color: rgb(16, 20, 30);
+  }
+  
+  main .fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+  
+  main input {
+    font-size: 22px;
+    outline: none;
+    background-color: rgb(16, 20, 30);
+    padding-bottom: 10px;
+    border: 0;
+    color: white;
+    min-width: 320px;
+  }
+  
+  main input:hover {
+    border-bottom: 1px solid white;
+  }
+
+
+/* ----------------------------main carousel--------------------------------------- */
+
+main #carouselExampleControls {
+    min-width: 450px;
+    z-index: -1;
+}
+
+main h1{
+    color: white;
+    padding: 20px 10px 10px 10px;
+}
+
+img {
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+}
+
+main .carousel-item {
+    padding: 10px 50px;
+}
+
+main  .fa-caret-left, .fa-caret-right {
+    font-size: 50px;
+    color: rgb(106, 109, 115);   
+    opacity: 50%;
+}
+
+main  .fa-caret-left, .fa-caret-right:hover {
+    color: white;
+    opacity: 100%;
+}
+
+
+/* ------------------rocommended section-------------- */
+
+ main .heading2 {
+  font-size: 28px;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+
+main .recommended {
+  display: grid;
+  row-gap: 170px;
+  column-gap: 10px;
+  padding-bottom: 30px;
+  grid-template-areas:
+    "a b "
+    "c d "
+    "e f"
+    "g h"
+    "i j"
+    "k l"
+    "m n"
+    "o p"
+    "q r"
+    "s t"
+    "u v"
+    "w x";
+   
+}
+
+.cell {
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center;
+
+}
+
+.box-1 {
+  grid-area: a;
+}
+
+.box-2 {
+  grid-area: b;
+}
+
+.box-3 {
+  grid-area: c;
+}
+
+.box-4 {
+  grid-area: d;
+}
+
+.box-5 {
+  grid-area: e;
+}
+
+.box-6 {
+  grid-area: f;
+}
+
+.box-7 {
+  grid-area: g;
+}
+
+.box-8 {
+  grid-area: h;
+}
+.box-9 {
+    grid-area: i;
+  }
+  
+  .box-10 {
+    grid-area: j;
+  }
+  
+  .box-11 {
+    grid-area: k;
+  }
+  
+  .box-12 {
+    grid-area: l;
+  }
+  
+  .box-13 {
+    grid-area: m;
+  }
+  
+  .box-14 {
+    grid-area: n;
+  }
+  
+  .box-15 {
+    grid-area: o;
+  }
+  
+  .box-16 {
+    grid-area: p;
+  }
+  .box-17 {
+    grid-area: q;
+  }
+  .box-18 {
+    grid-area: r;
+  }
+  .box-19 {
+    grid-area: s;
+  }
+  .box-20 {
+    grid-area: t;
+  }
+  .box-21 {
+    grid-area: u;
+  }
+  .box-22 {
+    grid-area: v;
+  }
+  .box-23 {
+    grid-area: w;
+  }
+  .box-24 {
+    grid-area: x;
+  }
+  
+
+
+
+main article .recommended-image {
+  width: 220px;
+  border-radius: 8px;
+}
+
+
+
+main .recommended .fa-bookmark {
+  color: white;
+  font-size: x-small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+main .recommended .title1 {
+  margin-left: -100px;
+  text-transform:capitalize;
+  margin-top: 5px;
+  color: rgb(90, 105, 143);
+  font-size: medium;
+}
+
+
+
+main .recommended .title1a {
+  margin-left: -115px;
+  font-size: 18px;
+  text-transform:capitalize;
+  color: white;
+ 
+}
+
+main .bookmark_icon {
+    margin-top: -180px;
+    padding-left: 180px;
+}
+
+main .fa-bookmark:hover {
+    color: red;
+}
+
+/* --------------------bookmarked movies----------------- */
+
+main .heading2 {
+    font-size: 28px;
+    font-weight: lighter;
+    padding-left: 20px;
+  }
+  
+  main .Bookmarked {
+    display: grid;
+    row-gap: 170px;
+    column-gap: 10px;
+    padding-bottom: 30px;
+    grid-template-areas:
+      "a b "
+      "c d "
+      "e f"
+      "g h"
+      "i j";
+     
+  }
+  
+  .cell {
+    text-transform: uppercase;
+    font-weight: bold; 
+    text-align: center;
+  
+  }
+  
+  .box-1 {
+    grid-area: a;
+  }
+  
+  .box-2 {
+    grid-area: b;
+  }
+  
+  .box-3 {
+    grid-area: c;
+  }
+  
+  .box-4 {
+    grid-area: d;
+  }
+  
+  .box-5 {
+    grid-area: e;
+  }
+  
+  .box-6 {
+    grid-area: f;
+  }
+  
+  .box-7 {
+    grid-area: g;
+  }
+  
+  .box-8 {
+    grid-area: h;
+  }
+  
+  .box-9 {
+     grid-area: i;
+}
+    
+  
+  main article .recommended-image {
+    width: 220px;
+    border-radius: 8px;
+  }
+  
+  
+  
+  main .Bookmarked .fa-bookmark {
+    color: white;
+    font-size: x-small;
+    padding: 7px 7px 6px 7px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 50%;
+  }
+  
+  main .Bookmarked .title1 {
+    margin-left: -100px;
+    text-transform:capitalize;
+    margin-top: 5px;
+    color: rgb(90, 105, 143);
+    font-size: medium;
+  }
+  
+  
+  
+  main .Bookmarked .title1a {
+    margin-left: -115px;
+    font-size: 18px;
+    text-transform:capitalize;
+    color: white;
+   
+  }
+  
+  main .bookmark_icon {
+      margin-top: -180px;
+      padding-left: 180px;
+  }
+  
+  main .fa-bookmark:hover {
+      color: red;
+  }
+  
+
+
+  /* --------------------------bookmarked-series-------------------------------- */
+
+  main .heading2 {
+    font-size: 28px;
+    font-weight: lighter;
+    padding-left: 20px;
+  }
+  
+  main .recommended-series {
+    display: grid;
+    row-gap: 170px;
+    column-gap: 10px;
+    padding-bottom: 30px;
+    grid-template-areas:
+      "a b "
+      "c d ";
+     
+  }
+  
+  .cell {
+    text-transform: uppercase;
+    font-weight: bold; 
+    text-align: center;
+  
+  }
+  
+  .box-1 {
+    grid-area: a;
+  }
+  
+  .box-2 {
+    grid-area: b;
+  }
+  
+  .box-3 {
+    grid-area: c;
+  }
+  
+  
+  main article .recommended-image {
+    width: 220px;
+    border-radius: 8px;
+  }
+  
+  
+  
+  main .recommended-series .fa-bookmark {
+    color: white;
+    font-size: x-small;
+    padding: 7px 7px 6px 7px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 50%;
+  }
+  
+  main .recommended-series .title1 {
+    margin-left: -100px;
+    text-transform:capitalize;
+    margin-top: 5px;
+    color: rgb(90, 105, 143);
+    font-size: medium;
+  }
+  
+  
+  
+  main .recommended-series .title1a {
+    margin-left: -115px;
+    font-size: 18px;
+    text-transform:capitalize;
+    color: white;
+   
+  }
+  
+  main .bookmark_icon {
+      margin-top: -180px;
+      padding-left: 180px;
+  }
+  
+  main .fa-bookmark:hover {
+      color: red;
+  }
+
+}
+
+/* ---------------------mediaq2---------------------- */
+
+@media all and (min-width: 541px) and (max-width: 1024px) {
+     
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 20, 31);
+}
+
+header {
+    position: sticky;
+    top: 30px;
+    min-width: 1080px;
+    padding: 0px 20px;
+}
+
+header .navbar {
+    background: rgb(22, 29, 47);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center;
+    align-content: stretch;
+    padding: 20px 5px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}   
+
+header ul {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 20px;
+    padding-left: 0px;
+}
+
+header li {
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 25px;
+    
+}
+
+header nav a{
+    color: rgb(90, 105, 144);
+}
+
+header nav a:hover {
+    color: white;
+}
+
+header nav .fa-windows {
+    color: white;
+
+}
+
+header .fa-clapperboard {
+    color: rgb(253, 71, 70);
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+
+header nav img {
+    align-items: center;
+}
+
+header #login-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+header #log {
+    padding-right: 20px;
+}
+
+
+/* ----------------------searchbar main------------------ */
+
+main {
+    min-width: 1080px;
+}
+main #searchbar {
+    padding-left: 10px;
+    min-width: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    position: sticky;
+    top: 118px;
+    background-color: rgb(16, 20, 30);
+    margin: 0px 20px;
+  }
+  
+  main .fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+  
+  main input {
+    font-size: 25px;
+    outline: none;
+    background-color: rgb(16, 20, 30);
+    padding-bottom: 10px;
+    border: 0;
+    color: white;
+    min-width: 350px;
+  }
+  
+  main input:hover {
+    border-bottom: 1px solid white;
+  }
+
+
+/* ----------------------------main carousel--------------------------------------- */
+
+main #carouselExampleControls {
+    min-width: 1050px;
+    z-index: -1;
+}
+
+main h1{
+    color: white;
+    padding: 20px 10px 10px 30px;
+    font-size: 45px;
+}
+
+    img {
+        aspect-ratio: 16/9;
+        border-radius: 8px;
+    }
+
+  main .carousel-item {
+    padding: 10px 50px;
+    width: 100%;
+   
+    
+
+}
+
+ main  .fa-caret-left, .fa-caret-right {
+    font-size: 50px;
+    color: rgb(106, 109, 115);   
+    opacity: 80%;
+}
+
+main  .fa-caret-left, .fa-caret-right:hover {
+    color: white;
+    opacity: 100%;
+}
+
+/* ------------------rocommended section-------------- */
+
+main .heading2 {
+    font-size: 28px;
+    font-weight: lighter;
+    padding-left: 40px;
+  }
+  
+  main .recommended {
+    display: grid;
+    row-gap: 210px;
+    column-gap: 10px;
+    padding-bottom: 30px;
+    grid-template-areas:
+      "a b c"
+      "d e f "
+      "g h i"
+      "j k l"
+      "m n o "
+      "p q r"
+      "s t u"
+      "v w x";
+     
+  }
+  
+  .cell {
+    text-transform: uppercase;
+    font-weight: bold; 
+    text-align: center;
+  
+  }
+  
+  .box-1 {
+    grid-area: a;
+    padding-left: 30px;
+  }
+  
+  .box-2 {
+    grid-area: b;
+  }
+  
+  .box-3 {
+    grid-area: c;
+    padding-right: 30px;
+  }
+  
+  .box-4 {
+    grid-area: d;
+    padding-left: 30px;
+  }
+  
+  .box-5 {
+    grid-area: e;
+  }
+  
+  .box-6 {
+    grid-area: f;
+    padding-right: 30px;
+  }
+  
+  .box-7 {
+    grid-area: g;
+    padding-left: 30px;
+  }
+  
+  .box-8 {
+    grid-area: h;
+  }
+  .box-9 {
+      grid-area: i;
+      padding-right: 30px;
+    }
+    
+    .box-10 {
+      grid-area: j;
+      padding-left: 30px;
+    }
+    
+    .box-11 {
+      grid-area: k;
+    }
+    
+    .box-12 {
+      grid-area: l;
+      padding-right: 30px;
+    }
+    
+    .box-13 {
+      grid-area: m;
+      padding-left: 30px;
+    }
+    
+    .box-14 {
+      grid-area: n;
+    }
+    
+    .box-15 {
+      grid-area: o;
+      padding-right: 30px;
+    }
+    
+    .box-16 {
+      grid-area: p;
+      padding-left: 30px;
+    }
+    .box-17 {
+      grid-area: q;
+    }
+    .box-18 {
+      grid-area: r;
+      padding-right: 30px;
+    }
+    .box-19 {
+      grid-area: s;
+      padding-left: 30px;
+    }
+    .box-20 {
+      grid-area: t;
+    }
+    .box-21 {
+      grid-area: u;
+      padding-right: 30px;
+    }
+    .box-22 {
+      grid-area: v;
+      padding-left: 30px;
+    }
+    .box-23 {
+      grid-area: w;
+    }
+    .box-24 {
+      grid-area: x;
+      padding-right: 30px;
+    }
+  
+  main article .recommended-image {
+    width: 300px;
+    border-radius: 8px;
+    padding: 0px 10px;
+  }
+  
+  
+  
+  main .recommended .fa-bookmark {
+    color: white;
+    font-size: x-small;
+    padding: 7px 7px 6px 7px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 50%;
+  }
+  
+  main .recommended .title1 {
+    margin-left: -170px;
+    text-transform:capitalize;
+    margin-top: 5px;
+    color: rgb(90, 105, 143);
+    font-size: 15px;
+  }
+  
+  
+  
+  main .recommended .title1a {
+    margin-left: -170px;
+    font-size: 20px;
+    text-transform:capitalize;
+    color: white;
+   
+  }
+  
+  main .bookmark_icon {
+      margin-top: -220px;
+      padding-left: 233px;
+  }
+  
+  main .fa-bookmark:hover {
+      color: red;
+  }
+
+  /* --------------------bookmarked movies----------------- */
+
+main .heading2 {
+  font-size: 35px;
+  font-weight: lighter;
+  padding-left: 30px;
+}
+
+main .Bookmarked {
+  display: grid;
+  row-gap: 250px;
+  column-gap: 10px;
+  padding-bottom: 30px;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+   
+}
+
+.cell {
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center;
+
+}
+
+.box-1 {
+  grid-area: a;
+}
+
+.box-2 {
+  grid-area: b;
+}
+
+.box-3 {
+  grid-area: c;
+}
+
+.box-4 {
+  grid-area: d;
+}
+
+.box-5 {
+  grid-area: e;
+}
+
+.box-6 {
+  grid-area: f;
+}
+
+.box-7 {
+  grid-area: g;
+}
+
+.box-8 {
+  grid-area: h;
+}
+
+.box-9 {
+   grid-area: i;
+}
+  
+
+main article .recommended-image {
+ min-width: 300px;
+  border-radius: 8px;
+}
+
+
+
+main .Bookmarked .fa-bookmark {
+  color: white;
+  font-size: small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+main .Bookmarked .title1 {
+  margin-left: -170px;
+  text-transform:capitalize;
+  margin-top: 5px;
+  color: rgb(90, 105, 143);
+  font-size: medium;
+}
+
+
+
+main .Bookmarked .title1a {
+  margin-left: -185px;
+  font-size: 18px;
+  text-transform:capitalize;
+  color: white;
+ 
+}
+
+main .Bookmarked .bookmark_icon {
+    margin-top: -220px;
+    padding-left: 230px;
+}
+
+main .fa-bookmark:hover {
+    color: red;
+}
+
+
+
+/* --------------------------bookmarked-series-------------------------------- */
+
+main .heading2 {
+  font-size: 28px;
+  font-weight: lighter;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+main .recommended-series {
+  display: grid;
+  row-gap: 170px;
+  column-gap: 10px;
+  padding-bottom: 30px;
+  grid-template-areas:
+    "a b c"
+    ;
+   
+}
+
+.cell {
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center;
+
+}
+
+.box-1 {
+  grid-area: a;
+}
+
+.box-2 {
+  grid-area: b;
+}
+
+.box-3 {
+  grid-area: c;
+}
+
+
+main article .recommended-image {
+  width: 220px;
+  border-radius: 8px;
+}
+
+
+
+main .recommended-series .fa-bookmark {
+  color: white;
+  font-size: x-small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+main .recommended-series .title1 {
+  margin-left: -170px;
+  text-transform:capitalize;
+  margin-top: 5px;
+  color: rgb(90, 105, 143);
+  font-size: medium;
+}
+
+
+
+main .recommended-series .title1a {
+  margin-left: -185px;
+  font-size: 18px;
+  text-transform:capitalize;
+  color: white;
+ 
+}
+
+main .bookmark_icon {
+    margin-top: -220px;
+    padding-left: 230px;
+}
+
+main .fa-bookmark:hover {
+    color: red;
+}
+
+}
+
+/* ---------------------mediaq3---------------------- */
+
+
+@media all and (min-width: 1025px) {
+     
+  * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(16, 20, 31);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+  width: 8.4%;
+  min-height: 100vh;
+    position: sticky;
+    top: 0px;
+    padding: 30px 0px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+header #navbar {
+
+    background: rgb(22, 29, 47);
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    align-content: flex-start;
+    padding: 20px 15px;
+    border-radius: 10px;
+
+}   
+
+header ul {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 0px;
+    padding-left: 0px;
+    padding: 20px 5px 0px 5px;
+}
+
+header li {
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+header nav a{
+    color: rgb(90, 105, 144);
+}
+
+header nav a:hover {
+    color: white;
+}
+
+header nav .fa-windows {
+    color: white;
+
+}
+
+header .fa-clapperboard {
+    color: rgb(253, 71, 70);
+    font-size: 35px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+
+header nav img {
+    align-items: center;
+}
+
+header #login-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+header #log {
+    padding-right: 5px;
+  padding-top: 230px;
+}
+
+
+/* ----------------------searchbar main------------------ */
+
+main {
+  margin: 0px auto auto 0px;
+    min-width: 60vw;
+    min-height: 100vh;
+padding-left: 100px;
+margin-top: -650px;
+    
+}
+
+
+main #searchbar {
+    padding-left: 50px;
+    min-width: 0vw;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(16, 20, 30);
+    margin: 0px 0px;
+  }
+  
+  main .fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  
+  main input {
+    font-size: 25px;
+    outline: none;
+    background-color: rgb(16, 20, 30);
+    padding-bottom: 10px;
+    border: 0;
+    color: white;
+    min-width: 350px;
+  }
+  
+  main input:hover {
+    border-bottom: 1px solid white;
+  }
+
+
+/* ----------------------------main carousel--------------------------------------- */
+
+main #carouselExampleControls {
+    min-width: 1050px;
+    z-index: -1;
+}
+
+main h1{
+    color: white;
+    padding: 20px 10px 0px 30px;
+    font-size: 40px;
+}
+
+    main #carouselExampleControls img {
+        aspect-ratio: 16/9;
+        border-radius: 8px;
+        position: relative;
+        left: 160px;
+       
+    }
+
+  main .carousel-item {
+    padding: 10px 50px;
+    width: 50%;
+   
+    
+
+}
+
+ main  .fa-caret-left, .fa-caret-right {
+    font-size: 50px;
+    color: rgb(106, 109, 115);   
+    opacity: 80%;
+    width: auto;
+}
+
+main  .fa-caret-left, .fa-caret-right:hover {
+    color: white;
+    opacity: 100%;
+}
+
+/* ------------------rocommended section-------------- */
+
+main .heading2 {
+    font-size: 28px;
+    font-weight: lighter;
+    padding-left: 40px;
+  }
+  
+  main .recommended {
+    display: grid;
+    row-gap: 210px;
+    column-gap: 10px;
+    padding-bottom: 30px;
+    grid-template-areas:
+      "a b c"
+      "d e f "
+      "g h i"
+      "j k l"
+      "m n o "
+      "p q r"
+      "s t u"
+      "v w x";
+     
+  }
+  
+  .cell {
+    text-transform: uppercase;
+    font-weight: bold; 
+    text-align: center;
+  
+  }
+  
+  .box-1 {
+    grid-area: a;
+    padding-left: 30px;
+  }
+  
+  .box-2 {
+    grid-area: b;
+  }
+  
+  .box-3 {
+    grid-area: c;
+    padding-right: 30px;
+  }
+  
+  .box-4 {
+    grid-area: d;
+    padding-left: 30px;
+  }
+  
+  .box-5 {
+    grid-area: e;
+  }
+  
+  .box-6 {
+    grid-area: f;
+    padding-right: 30px;
+  }
+  
+  .box-7 {
+    grid-area: g;
+    padding-left: 30px;
+  }
+  
+  .box-8 {
+    grid-area: h;
+  }
+  .box-9 {
+      grid-area: i;
+      padding-right: 30px;
+    }
+    
+    .box-10 {
+      grid-area: j;
+      padding-left: 30px;
+    }
+    
+    .box-11 {
+      grid-area: k;
+    }
+    
+    .box-12 {
+      grid-area: l;
+      padding-right: 30px;
+    }
+    
+    .box-13 {
+      grid-area: m;
+      padding-left: 30px;
+    }
+    
+    .box-14 {
+      grid-area: n;
+    }
+    
+    .box-15 {
+      grid-area: o;
+      padding-right: 30px;
+    }
+    
+    .box-16 {
+      grid-area: p;
+      padding-left: 30px;
+    }
+    .box-17 {
+      grid-area: q;
+    }
+    .box-18 {
+      grid-area: r;
+      padding-right: 30px;
+    }
+    .box-19 {
+      grid-area: s;
+      padding-left: 30px;
+    }
+    .box-20 {
+      grid-area: t;
+    }
+    .box-21 {
+      grid-area: u;
+      padding-right: 30px;
+    }
+    .box-22 {
+      grid-area: v;
+      padding-left: 30px;
+    }
+    .box-23 {
+      grid-area: w;
+    }
+    .box-24 {
+      grid-area: x;
+      padding-right: 30px;
+    }
+  
+  main article .recommended-image {
+    width: 300px;
+    border-radius: 8px;
+    padding: 0px 10px;
+  }
+  
+  
+  
+  main .recommended .fa-bookmark {
+    color: white;
+    font-size: x-small;
+    padding: 7px 7px 6px 7px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 50%;
+  }
+  
+  main .recommended .title1 {
+    margin-left: -170px;
+    text-transform:capitalize;
+    margin-top: 5px;
+    color: rgb(90, 105, 143);
+    font-size: 15px;
+  }
+  
+  
+  
+  main .recommended .title1a {
+    margin-left: -170px;
+    font-size: 20px;
+    text-transform:capitalize;
+    color: white;
+   
+  }
+  
+  main .bookmark_icon {
+      margin-top: -220px;
+      padding-left: 233px;
+  }
+  
+  main .fa-bookmark:hover {
+      color: red;
+  }
+
+  /* --------------------bookmarked movies----------------- */
+
+main .heading2 {
+  font-size: 35px;
+  font-weight: lighter;
+  padding-left: 30px;
+}
+
+main .Bookmarked {
+  display: grid;
+  row-gap: 250px;
+  column-gap: 10px;
+  padding-bottom: 30px;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+   
+}
+
+.cell {
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center;
+
+}
+
+.box-1 {
+  grid-area: a;
+}
+
+.box-2 {
+  grid-area: b;
+}
+
+.box-3 {
+  grid-area: c;
+}
+
+.box-4 {
+  grid-area: d;
+}
+
+.box-5 {
+  grid-area: e;
+}
+
+.box-6 {
+  grid-area: f;
+}
+
+.box-7 {
+  grid-area: g;
+}
+
+.box-8 {
+  grid-area: h;
+}
+
+.box-9 {
+   grid-area: i;
+}
+  
+
+main article .recommended-image {
+ min-width: 300px;
+  border-radius: 8px;
+}
+
+
+
+main .Bookmarked .fa-bookmark {
+  color: white;
+  font-size: small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+main .Bookmarked .title1 {
+  margin-left: -170px;
+  text-transform:capitalize;
+  margin-top: 5px;
+  color: rgb(90, 105, 143);
+  font-size: medium;
+}
+
+
+
+main .Bookmarked .title1a {
+  margin-left: -185px;
+  font-size: 18px;
+  text-transform:capitalize;
+  color: white;
+ 
+}
+
+main .Bookmarked .bookmark_icon {
+    margin-top: -220px;
+    padding-left: 230px;
+}
+
+main .fa-bookmark:hover {
+    color: red;
+}
+
+
+
+/* --------------------------bookmarked-series-------------------------------- */
+
+main .heading2 {
+  font-size: 28px;
+  font-weight: lighter;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+main .recommended-series {
+  display: grid;
+  row-gap: 170px;
+  column-gap: 10px;
+  padding-bottom: 30px;
+  grid-template-areas:
+    "a b c"
+    ;
+   
+}
+
+.cell {
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center;
+
+}
+
+.box-1 {
+  grid-area: a;
+}
+
+.box-2 {
+  grid-area: b;
+}
+
+.box-3 {
+  grid-area: c;
+}
+
+
+main article .recommended-image {
+  width: 220px;
+  border-radius: 8px;
+}
+
+
+
+main .recommended-series .fa-bookmark {
+  color: white;
+  font-size: x-small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+main .recommended-series .title1 {
+  margin-left: -170px;
+  text-transform:capitalize;
+  margin-top: 5px;
+  color: rgb(90, 105, 143);
+  font-size: medium;
+}
+
+
+
+main .recommended-series .title1a {
+  margin-left: -185px;
+  font-size: 18px;
+  text-transform:capitalize;
+  color: white;
+ 
+}
+
+main .bookmark_icon {
+    margin-top: -220px;
+    padding-left: 230px;
+}
+
+main .fa-bookmark:hover {
+    color: red;
+}
+
+}
